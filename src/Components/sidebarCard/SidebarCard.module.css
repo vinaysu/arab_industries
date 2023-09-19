@@ -1,0 +1,16 @@
+.main{
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding-left: 1rem;
+    background-color: white;
+    width: 60%;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.main:hover{
+    cursor: pointer;
+    background-color: rgb(86, 157, 219);
+}

@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    background-color: rgb(232, 241, 241);
+    justify-content: space-between;
+    padding: 0 50px;
+    padding-left: 0;
+}
+
+.left{
+   
+    width: 20vw;
+    margin-left: 2rem;
+  
+    
+}
+.companyName{
+    background-color: white;
+    height: 2rem;
+    border-radius: 5px;
+    padding: 0 1rem;
+}
+.companyName:hover{
+    cursor: pointer;
+
+}
+
+.icon{
+    background-color: white;
+    border-radius: 2px;
+    height: 2rem;
+}
+.icon:hover{
+    cursor: pointer;
+}
+
+.right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
