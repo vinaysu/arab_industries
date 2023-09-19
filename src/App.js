@@ -5,21 +5,25 @@ import Sidebar from './Components/sidebar/Sidebar';
 
 import Perks from './Perks';
 
+import BasicSlider from './Components/basicSlider/BasicSlider'
+
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <div className={styles.home} >
-        <Sidebar></Sidebar>
+        {/* <Sidebar></Sidebar> */}
 
 
-        <Home />
+        {/* <Home /> */}
 
 
 
       </div>
+
+      <BasicSlider />
 
 
     </div>
